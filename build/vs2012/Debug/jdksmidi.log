@@ -1,0 +1,72 @@
+﻿Build started 9/23/2012 4:13:16 PM.
+     1>Project "C:\Users\Dogbert\Documents\GitHub\jdksmidi\build\vs2012\jdksmidi.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I"C:\Program Files\Microsoft Platform SDK\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _MBCS /D _LIB /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\jdksmidi_advancedsequencer.cpp ..\..\src\jdksmidi_driver.cpp ..\..\src\jdksmidi_driverdump.cpp ..\..\src\jdksmidi_edittrack.cpp ..\..\src\jdksmidi_file.cpp ..\..\src\jdksmidi_fileread.cpp ..\..\src\jdksmidi_filereadmultitrack.cpp ..\..\src\jdksmidi_fileshow.cpp ..\..\src\jdksmidi_filewrite.cpp ..\..\src\jdksmidi_filewritemultitrack.cpp ..\..\src\jdksmidi_keysig.cpp ..\..\src\jdksmidi_manager.cpp ..\..\src\jdksmidi_matrix.cpp ..\..\src\jdksmidi_midi.cpp ..\..\src\jdksmidi_msg.cpp ..\..\src\jdksmidi_multitrack.cpp ..\..\src\jdksmidi_parser.cpp ..\..\src\jdksmidi_process.cpp ..\..\src\jdksmidi_queue.cpp ..\..\src\jdksmidi_sequencer.cpp ..\..\src\jdksmidi_showcontrol.cpp ..\..\src\jdksmidi_showcontrolhandler.cpp ..\..\src\jdksmidi_smpte.cpp ..\..\src\jdksmidi_sysex.cpp ..\..\src\jdksmidi_tempo.cpp ..\..\src\jdksmidi_tick.cpp ..\..\src\jdksmidi_track.cpp
+         jdksmidi_track.cpp
+         jdksmidi_tick.cpp
+         jdksmidi_tempo.cpp
+         jdksmidi_sysex.cpp
+         jdksmidi_smpte.cpp
+         jdksmidi_showcontrolhandler.cpp
+         jdksmidi_showcontrol.cpp
+         jdksmidi_sequencer.cpp
+         jdksmidi_queue.cpp
+         jdksmidi_process.cpp
+         jdksmidi_parser.cpp
+         jdksmidi_multitrack.cpp
+         jdksmidi_msg.cpp
+         jdksmidi_midi.cpp
+         jdksmidi_matrix.cpp
+         jdksmidi_manager.cpp
+         jdksmidi_keysig.cpp
+         jdksmidi_filewritemultitrack.cpp
+         jdksmidi_filewrite.cpp
+         jdksmidi_fileshow.cpp
+         Generating Code...
+         Compiling...
+         jdksmidi_filereadmultitrack.cpp
+         jdksmidi_fileread.cpp
+         jdksmidi_file.cpp
+         jdksmidi_edittrack.cpp
+         jdksmidi_driverdump.cpp
+         jdksmidi_driver.cpp
+         jdksmidi_advancedsequencer.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\include /I"C:\Program Files\Microsoft Platform SDK\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\win32\jdksmidi_driverwin32.cpp
+         jdksmidi_driverwin32.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:".\Debug\jdksmidi.lib" /NOLOGO .\Debug/jdksmidi_advancedsequencer.obj
+         .\Debug/jdksmidi_driver.obj
+         .\Debug/jdksmidi_driverdump.obj
+         .\Debug/jdksmidi_edittrack.obj
+         .\Debug/jdksmidi_file.obj
+         .\Debug/jdksmidi_fileread.obj
+         .\Debug/jdksmidi_filereadmultitrack.obj
+         .\Debug/jdksmidi_fileshow.obj
+         .\Debug/jdksmidi_filewrite.obj
+         .\Debug/jdksmidi_filewritemultitrack.obj
+         .\Debug/jdksmidi_keysig.obj
+         .\Debug/jdksmidi_manager.obj
+         .\Debug/jdksmidi_matrix.obj
+         .\Debug/jdksmidi_midi.obj
+         .\Debug/jdksmidi_msg.obj
+         .\Debug/jdksmidi_multitrack.obj
+         .\Debug/jdksmidi_parser.obj
+         .\Debug/jdksmidi_process.obj
+         .\Debug/jdksmidi_queue.obj
+         .\Debug/jdksmidi_sequencer.obj
+         .\Debug/jdksmidi_showcontrol.obj
+         .\Debug/jdksmidi_showcontrolhandler.obj
+         .\Debug/jdksmidi_smpte.obj
+         .\Debug/jdksmidi_sysex.obj
+         .\Debug/jdksmidi_tempo.obj
+         .\Debug/jdksmidi_tick.obj
+         .\Debug/jdksmidi_track.obj
+         .\Debug/jdksmidi_driverwin32.obj
+     1>jdksmidi_tempo.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         jdksmidi.vcxproj -> C:\Users\Dogbert\Documents\GitHub\jdksmidi\build\vs2012\.\Debug\jdksmidi.lib
+     1>Done Building Project "C:\Users\Dogbert\Documents\GitHub\jdksmidi\build\vs2012\jdksmidi.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.73
